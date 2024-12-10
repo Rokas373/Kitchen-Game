@@ -1,0 +1,23 @@
+body {
+    background-image: url("https://miro.medium.com/v2/resize:fit:1200/1*9NU4KjEjSdIHQC-sqn2f3Q.png");
+    background-size: cover;
+}
+.ingredient {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 2rem;
+    margin: 5px;
+}
+.order, .prep-area {
+    font-size: 1.5rem;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    min-height: 50px;
+}
+#ingredient-tray span {
+    margin: 5px;
+}
+.btn-group {
+    margin-top: 15px;
+}
